@@ -39,3 +39,14 @@ foodverse.db
 # OS
 .DS_Store
 Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+
+# Logs
+*.log
